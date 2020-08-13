@@ -76,7 +76,7 @@
 
 # Projects
 
-## Bluetooth Low-Energy (BLE) LED Strip Controller
+## Wireless LED Strip Controllers/Drivers
 
 Two separate projects for implementing a wirelessly-controlled LED strip using Bluetooth (LE):
 
