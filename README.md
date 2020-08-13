@@ -78,6 +78,10 @@
 
 ## Bluetooth Low-Energy (BLE) LED Strip Controller
 
+Two separate projects for implementing a wirelessly-controlled LED strip using Bluetooth (LE):
+
+### Android mobile device -to- Arduino-driven LED strip
+
 |Repository|Application|Target/Host|
 |:---------|:---------:|:---------:|
 |[`ardnew/ItsyBitsy-BLE-LED`](https://github.com/ardnew/ItsyBitsy-BLE-LED)|`ItsyBitsy-BLE-LED`|Adafruit ItsyBitsy nRF52840 (Arduino/C++)|
@@ -93,3 +97,19 @@ Currently supports several modes of operation:
 - Parameterized animation patterns (color wheel, theater chase, and fade/breathe)
 - Optional motion-activated trigger (passive-infrared or doppler radar) with timer — great as a nightlight!
 
+### Arduino sensor-based device -to- Arduino-driven LED strip
+
+|Repository|Application|Target/Host|
+|:---------|:---------:|:---------:|
+|[`ardnew/NeoCLUE`](https://github.com/ardnew/NeoCLUE)|[`Controller`](https://github.com/ardnew/NeoCLUE/tree/master/sketchbook/Controller)|Adafruit CLUE nRF52840 (Arduino/C++)|
+|[`ardnew/NeoCLUE`](https://github.com/ardnew/NeoCLUE)|[`Driver`](https://github.com/ardnew/NeoCLUE/tree/master/sketchbook/Driver)|Adafruit ItsyBitsy nRF52840 (Arduino/C++)|
+
+Similar to the Android-based project above, but implemented using a pair of Arduino-based Nordic nRF52840 devices. 
+
+Additionally, this project is designed to utilize the suite of environmental sensors embedded on the Controller (Adafruit CLUE). 
+
+For example, the user can control the LED strip color in real-time using the accelerometer (e.g., X, Y, and Z-axis mapped to the Red, Green, and Blue components, respectively, of the RGB-colored LEDs), gyroscope, magnetometer, air temperature, barometric pressure, humidity, light color, proximity, gesture sensor, or PDM microphone. 
+
+Various animation patterns (e.g., color pulse/fade using microphone audio levels, rainbow pattern with origin seeded by magnetic North, etc.) are also supported.
+
+The onboard IPS LCD screen provides a rich GUI interface based on the LVGL embedded graphics library.
