@@ -21,6 +21,15 @@
 |[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Go module to parse and iterate over IPv4 address intervals|
 |[`ardnew/oibot`](https://github.com/ardnew/oibot)|--|Go package for controlling iRobot Create 2 robots using Open Interface (OI) specification|
 
+#### Commands
+
+[rosterdocimg]:https://godoc.org/github.com/ardnew/roster?status.svg
+[rosterdocurl]:https://godoc.org/github.com/ardnew/roster
+
+|Repository|Command|Documentation|Description|
+|:---------|:-----:|:-----------:|:----------|
+|[`ardnew/roster`](https://github.com/ardnew/roster)|`roster`|[![GoDoc][rosterdocimg]][rosterdocurl]|Check which files have changed using configurable directory index file|
+
 #### Shell integration
 
 |Repository|Command|Target/Host|Description|
