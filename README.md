@@ -17,7 +17,7 @@
 [ipseqdocimg]:https://godoc.org/github.com/ardnew/ipseq?status.svg
 [ipseqdocurl]:https://godoc.org/github.com/ardnew/ipseq
 
-||Repository|Documentation|Description|
+|[㏄](#color-code)|Repository|Documentation|Description|
 |--|:--------:|:-----:|:----------|
 |[🟦](#color-code)|[`ardnew/mcp2221a`](https://github.com/ardnew/mcp2221a)|[![GoDoc][mcp2221adocimg]][mcp2221adocurl]|Go module for the MCP2221A USB to I²C/UART Protocol Converter with GPIO|
 |[🟦](#color-code)|[`ardnew/ft232h`](https://github.com/ardnew/ft232h)|[![GoDoc][ft232hdocimg]][ft232hdocurl]|Go module for FTDI FT232H USB to GPIO/SPI/I²C/JTAG/UART protocol converter|
@@ -27,7 +27,7 @@
 
 #### Shell integration
 
-||Repository|Command|Target/Host|Description|
+|[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |--|:--------:|:-----:|:---------:|:----------|
 |[🟦](#color-code)|[`ardnew/gosh`](https://github.com/ardnew/gosh)|[`cmd/gosh`](https://github.com/ardnew/gosh/tree/master/cmd/gosh)|Linux|Launch shell with YAML-driven environment|
 |[🟦](#color-code)|[`ardnew/gosh`](https://github.com/ardnew/gosh)|[`cmd/goshfun`](https://github.com/ardnew/gosh/tree/master/cmd/goshfun)|Linux|Generate command-line interface for Go library functions|
@@ -37,7 +37,7 @@
 [rosterdocimg]:https://godoc.org/github.com/ardnew/roster?status.svg
 [rosterdocurl]:https://godoc.org/github.com/ardnew/roster
 
-||Repository|Command|Documentation|Description|
+|[㏄](#color-code)|Repository|Command|Documentation|Description|
 |--|:---------|:-----:|:-----------:|:----------|
 |[🟦](#color-code)|[`ardnew/roster`](https://github.com/ardnew/roster)|`roster`|[![GoDoc][rosterdocimg]][rosterdocurl]|Check which files have changed using configurable directory index file|
 |[🟦](#color-code)|[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[`cmd/ipseq`](https://github.com/ardnew/ipseq/tree/master/cmd/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Print IPv4 addresses in ranges similar to `seq` from [GNU coreutils](https://github.com/coreutils/coreutils)|
@@ -45,14 +45,14 @@
 
 #### Raspberry Pi
 
-||Repository|Command|Target/Host|Description|
+|[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |--|:---------|:-----:|:---------:|:----------|
 |[🟩](#color-code)|[`ardnew/rpireboot`](https://github.com/ardnew/rpireboot)|`rpireboot`|Linux (systemd)|Raspberry Pi service to reboot system on GPIO interrupt|
 |[🟨](#color-code)|[`ardnew/remax`](https://github.com/ardnew/remax)|`remax`|Linux|Maximize serial terminal based on current window size|
 
 # Arduino
 
-||Repository|Target/Host|Description|
+|[㏄](#color-code)|Repository|Target/Host|Description|
 |--|:---------|:---------:|:----------|
 |[🟦](#color-code)|[`ardnew/STUSB4500`](https://github.com/ardnew/STUSB4500)|Arduino|Arduino library for real-time capabilities of the STUSB4500 USB PD sink controller|
 |[🟩](#color-code)|[`ardnew/timecard`](https://github.com/ardnew/timecard)|Arduino|PyPortal (Arduino) application to track hours charged to projects|
@@ -64,14 +64,14 @@
 
 # STM32
 
-||Repository|Target/Host|Description|
+|[㏄](#color-code)|Repository|Target/Host|Description|
 |--|:---------|:---------:|:----------|
 |[🟦](#color-code)|[`ardnew/ILI9341-STM32-HAL`](https://github.com/ardnew/ILI9341-STM32-HAL)|STM32|ILI9341 color TFT display and XPT2046 touchscreen driver for STM32 using HAL SPI with DMA|
 |[🟦](#color-code)|[`ardnew/INA260-STM32-HAL`](https://github.com/ardnew/INA260-STM32-HAL)|STM32|INA260 voltage/current sensor driver for STM32 using HAL I²C|
 
 # Perl
 
-||Repository|Command|Target/Host|Description|
+|[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |--|:---------|:-----:|:---------:|:----------|
 |[🟥](#color-code)|[`ardnew/perl-mod`](https://github.com/ardnew/perl-mod)|--|\*|Pure Perl modules for I/O, functional iterators, files, and list utilities.|
 |[🟩](#color-code)|[`ardnew/pcp`](https://github.com/ardnew/pcp)|`pcp`|\*|File and directory copy on ~~steroids~~PCP|
@@ -79,13 +79,13 @@
 
 # Bash
 
-||Repository|Command|Target/Host|Description|
+|[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |--|:---------|:-----:|:---------:|:----------|
-|[🟩|[`ardnew/bash-arduino`](https://github.com/ardnew/bash-arduino)|`ino`|\*|bash environment and utilities for simplifying `arduino-cli` interactions|
+|[🟩](#color-code)|[`ardnew/bash-arduino`](https://github.com/ardnew/bash-arduino)|`ino`|\*|bash environment and utilities for simplifying `arduino-cli` interactions|
 
 # Delphi
 
-||Repository|Command|Target/Host|Description|
+|[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |--|:---------|:-----:|:---------:|:----------|
 |[🟥](#color-code)|[`ardnew/mswin-systool`](https://github.com/ardnew/mswin-systool)|`SysTool.exe`|Windows XP/7|System tray utility for bit pattern manipulation (two's-complement, IEEE-754, base conversions), file analysis (hex dump, checksum, NTFS/FAT attributes), and other stuff.|
 
@@ -95,12 +95,12 @@
 
 Two separate projects for implementing a wirelessly-controlled LED strip using Bluetooth (LE):
 
-### [🟩](#color-code) Android mobile device -to- Arduino-driven LED strip
+### Android mobile device -to- Arduino-driven LED strip
 
-|Repository|Application|Target/Host|
-|:---------|:---------:|:---------:|
-|[`ardnew/ItsyBitsy-BLE-LED`](https://github.com/ardnew/ItsyBitsy-BLE-LED)|`ItsyBitsy-BLE-LED`|Adafruit ItsyBitsy nRF52840 (Arduino/C++)|
-|[`ardnew/Android-BLE-LED`](https://github.com/ardnew/Android-BLE-LED)|`Blixel`|Android (Java)|
+|[㏄](#color-code)|Repository|Application|Target/Host|
+|--|:---------|:---------:|:---------:|
+|[🟩](#color-code)|[`ardnew/ItsyBitsy-BLE-LED`](https://github.com/ardnew/ItsyBitsy-BLE-LED)|`ItsyBitsy-BLE-LED`|Adafruit ItsyBitsy nRF52840 (Arduino/C++)|
+|[🟩](#color-code)|[`ardnew/Android-BLE-LED`](https://github.com/ardnew/Android-BLE-LED)|`Blixel`|Android (Java)|
 
 Designed for Android mobile devices, implemented using an Adafruit ItsyBitsy nRF52840 and a 300-pixel (5 meters) RGB LED WS2815 strip. 
 
@@ -112,12 +112,12 @@ Currently supports several modes of operation:
 - Parameterized animation patterns (color wheel, theater chase, and fade/breathe)
 - Optional motion-activated trigger (passive-infrared or doppler radar) with timer — great as a nightlight!
 
-### [🟩](#color-code) Arduino sensor-based device -to- Arduino-driven LED strip
+### Arduino sensor-based device -to- Arduino-driven LED strip
 
-|Repository|Application|Target/Host|
-|:---------|:---------:|:---------:|
-|[`ardnew/NeoCLUE`](https://github.com/ardnew/NeoCLUE)|[`Controller`](https://github.com/ardnew/NeoCLUE/tree/master/sketchbook/Controller)|Adafruit CLUE nRF52840 (Arduino/C++)|
-|[`ardnew/NeoCLUE`](https://github.com/ardnew/NeoCLUE)|[`Driver`](https://github.com/ardnew/NeoCLUE/tree/master/sketchbook/Driver)|Adafruit ItsyBitsy nRF52840 (Arduino/C++)|
+|[㏄](#color-code)|Repository|Application|Target/Host|
+|--|:---------|:---------:|:---------:|
+|[🟩](#color-code)|[`ardnew/NeoCLUE`](https://github.com/ardnew/NeoCLUE)|[`Controller`](https://github.com/ardnew/NeoCLUE/tree/master/sketchbook/Controller)|Adafruit CLUE nRF52840 (Arduino/C++)|
+|[🟩](#color-code)|[`ardnew/NeoCLUE`](https://github.com/ardnew/NeoCLUE)|[`Driver`](https://github.com/ardnew/NeoCLUE/tree/master/sketchbook/Driver)|Adafruit ItsyBitsy nRF52840 (Arduino/C++)|
 
 Similar to the Android-based project above, but implemented using a pair of Arduino-based Nordic nRF52840 devices. 
 
