@@ -37,6 +37,7 @@
 |:---------|:-----:|:-----------:|:----------|
 |[`ardnew/roster`](https://github.com/ardnew/roster)|`roster`|[![GoDoc][rosterdocimg]][rosterdocurl]|Check which files have changed using configurable directory index file|
 |[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[`cmd/ipseq`](https://github.com/ardnew/ipseq/tree/master/cmd/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Print IPv4 addresses in ranges similar to `seq` from [GNU coreutils](https://github.com/coreutils/coreutils)|
+|[`ardnew/lcpre`](https://github.com/ardnew/lcpre)|`lcpre`|--|Determine the longest common prefix among multiple strings|
 
 #### Raspberry Pi
 
