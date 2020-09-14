@@ -73,7 +73,7 @@
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |--|:---------|:-----:|:---------:|:----------|
-|[🟥](#color-code)|[`ardnew/perl-mod`](https://github.com/ardnew/perl-mod)|--|\*|Pure Perl modules for I/O, functional iterators, files, and list utilities.|
+|[🟧](#color-code)|[`ardnew/perl-mod`](https://github.com/ardnew/perl-mod)|--|\*|Pure Perl modules for I/O, functional iterators, files, and list utilities.|
 |[🟩](#color-code)|[`ardnew/pcp`](https://github.com/ardnew/pcp)|`pcp`|\*|File and directory copy on ~~steroids~~PCP|
 |[⬛](#color-code)|[`ardnew/ios-scripts`](https://github.com/ardnew/ios-scripts)|`iosctrl`|macOS|Analyze, compile, and package iOS applications from Xcode projects|
 
@@ -87,7 +87,7 @@
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |--|:---------|:-----:|:---------:|:----------|
-|[🟥](#color-code)|[`ardnew/mswin-systool`](https://github.com/ardnew/mswin-systool)|`SysTool.exe`|Windows XP/7|System tray utility for bit pattern manipulation (two's-complement, IEEE-754, base conversions), file analysis (hex dump, checksum, NTFS/FAT attributes), and other stuff.|
+|[🟧](#color-code)|[`ardnew/mswin-systool`](https://github.com/ardnew/mswin-systool)|`SysTool.exe`|Windows XP/7|System tray utility for bit pattern manipulation (two's-complement, IEEE-754, base conversions), file analysis (hex dump, checksum, NTFS/FAT attributes), and other stuff.|
 
 # Projects
 
@@ -136,6 +136,6 @@ The onboard IPS LCD screen provides a rich GUI interface based on the LVGL embed
 |🟦|**Excellent**|Robust, tested, stable, well-documented|✓|
 |🟩|**Good**|Correct, adaptable|✓|
 |🟨|**Reusable**|Generally correct, may require modifications|✓|
-|🟧|**Broken**|Partially implemented, missing or broken capabilities|✓|
-|🟥|**Deprecated**|Target platform no longer in use| |
+|🟧|**Deprecated**|Target platform no longer in use| |
+|🟥|**Broken**|Partially implemented, missing or broken capabilities|✓|
 |⬛|**⁉**|Y̴o̵u̶ ̷m̵̦̚à̷̤y̶̧̕ ̸̱͋ḧ̵̰̻́̐̉̚a̸͕̰̅̍͊̓͆v̷͚̳̏̿̓͊é̶̡̯̘̻͈̐̌̎̾ ̴̖͔̯̪̠̾̎s̴̲̣̮͒̏̿͝ȩ̴̦͎̥̻̰͇͆̾ŗ̴̪̰̥̽̑́͒̈́i̶̢͕̺̲͕̬͊̀̓ô̵̹̲͉̼̻̎̽u̶̡̢̢̫̳͔̓͑̂̔̑̃͘s̴͕̊͆̅̕ ̵̘͓͙̃͘p̵̺̠̥̝͔̀ṙ̶̡̺̣̞̯̆̏͜ő̸̧b̵̫̜͖̓̈͒͗ĺ̴̢̝͖̬͙̳̀ę̸̹͒̐̓̌̿̽͝ͅm̸̟̬̪̣̖̮͒̍͊̐͑͛͘s̷̛̫̤͐͗̇̾̃ ̸̢̛̣͋̐̎͋̎̈́u̶̳̥̭͑́̓̀͌̆s̶̥̭̝̯̃͊̕͘͠͠į̷̛̳̤͈̬̍͗̅̀ń̶̦͊̌̔̑͗͗g̷͎͐́̑ ̶̘͓̺̱͆̓͜ţ̶̢̡̧͉̜͙͙͚̘͓̼̝͙̥͔̟̦͓̮̯̞̘̞̫̺̱̖̀̉ḩ̶̨̧̡̛͈͍̙̖̮̫͚̜̜̮̦̻̼͉̪̻̹̀̌͊̽̓̄́̓̿̋͌̑͌͐̒͌͑̋̕̕̚ȋ̴̧̛̼̘̼̙̟͍̥̱͌̍͂́̐͐̈́̆̍̀͑̀̑͒͘s̶̮̖̟͔̥̮̭̥̺͕̲̪̪̅̑͜͝͝ ̸̝̹͕̬̱̠́̽̍̒͛͆͛̔͌̔̊̓̂̈̄̿͑̆͆̈́͑̂̐͘͝s̴̨̞͉̼̮̱̠̤̤̦͍͇̹̗̯̖̱͓͈̭̩̞̄͐͂͒͛̓̌̍̈́̐͛̏̐̀̀̕̚͘͘͘̕͜͜͝ǫ̷̢̡̢̡̛̟̙̥͚̬̹̼̺̦̭͇͈̣̥̝̂̌̊̓̿̃́̔̃̐̅̕̕f̶̟̳̮̠͔̻̾́̌͛̉͜ͅţ̶̢̡̧͉̜͙͙͚̘͓̼̝͙̥͔̟̦͓̮̯̞̘̞̫̺̱̖̀̉w̶̢̲̘̙̭̭̣̫̬͎̖͔͚̗̟̣̠͓̘̮͓̞͎̪̲͓̖̝̦̘͉̋̌͐͛̈̃̃͊͐͘͝͠ą̷̛̛̛̖̭͉̦̗̱̠̜͈͚͖̰̟͓̇͒̂̐̀̏̑͛̎̈̈̆̌͑̓̌͐̅̓͊̀̌̊̅̈́̚̚̚͠r̸̢̨̡̨̨͎̯͙̩͖͖̦̪͖̠̺̜̳̘̞̠̪̭̙̭͍̝͓͕͎̩̯͈͖̮͂͛̇͐̎̌̃̄̀͜͝ͅę̷͍̫̟͉̮̼͗̊̌͂̆̐̄̊̈́̍̍̄̇͘͠͠| |
