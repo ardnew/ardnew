@@ -1,4 +1,4 @@
-### This page lists notable software repositories that are free for public use. 
+### This page lists notable personal software repositories that are free for public use. 
 
 #### All software is entirely original and personally authored work unless noted otherwise.
 
