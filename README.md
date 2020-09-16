@@ -1,4 +1,6 @@
-### This page lists notable software repositories that are free for public use. All software is entirely original and personally authored work unless noted otherwise.
+### This page lists notable software repositories that are free for public use. 
+
+#### All software is entirely original and personally authored work unless noted otherwise.
 
 ###### Each repository is assigned a subjective color code to indicate its status and general quality. See [Color Code](#color-code) for details.
 
