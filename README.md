@@ -1,8 +1,8 @@
-### This page lists notable personal software repositories that are free for public use. 
+### The following software is all personally authored and free for public use (unless noted otherwise).
 
-#### All software is entirely original and personally authored work unless noted otherwise.
+#### Pull requests, criticism, and [donations](https://cash.app/$ardnew) welcome. *No refunds*.
 
-###### Each repository is assigned a subjective color code to indicate its status and general quality. See [Color Code](#color-code) for details.
+###### Each repository is assigned a subjective color code (㏄) to indicate its status and general quality. See [Color Code](#color-code) for definitions.
 
 # Go 
 
