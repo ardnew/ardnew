@@ -136,8 +136,8 @@ The onboard IPS LCD screen provides a rich GUI interface based on the LVGL embed
 |Color|Status|Description|Active|
 |-----|:----:|:----------|:----:|
 |🟦|**Excellent**|Robust, tested, stable, well-documented|✓|
-|🟩|**Good**|Correct, adaptable|✓|
-|🟨|**Reusable**|Generally correct, may require modifications|✓|
-|🟧|**Deprecated**|Target platform no longer in use| |
+|🟩|**Good**|Correct, reusable|✓|
+|🟨|**Reusable**|Functional, may require modification|✓|
+|🟧|**Deprecated**|No longer used or maintained| |
 |🟥|**Broken**|Partially implemented, missing or broken capabilities|✓|
 |⬛|**⁉**|Y̴o̵u̶ ̷m̵̦̚à̷̤y̶̧̕ ̸̱͋ḧ̵̰̻́̐̉̚a̸͕̰̅̍͊̓͆v̷͚̳̏̿̓͊é̶̡̯̘̻͈̐̌̎̾ ̴̖͔̯̪̠̾̎s̴̲̣̮͒̏̿͝ȩ̴̦͎̥̻̰͇͆̾ŗ̴̪̰̥̽̑́͒̈́i̶̢͕̺̲͕̬͊̀̓ô̵̹̲͉̼̻̎̽u̶̡̢̢̫̳͔̓͑̂̔̑̃͘s̴͕̊͆̅̕ ̵̘͓͙̃͘p̵̺̠̥̝͔̀ṙ̶̡̺̣̞̯̆̏͜ő̸̧b̵̫̜͖̓̈͒͗ĺ̴̢̝͖̬͙̳̀ę̸̹͒̐̓̌̿̽͝ͅm̸̟̬̪̣̖̮͒̍͊̐͑͛͘s̷̛̫̤͐͗̇̾̃ ̸̢̛̣͋̐̎͋̎̈́u̶̳̥̭͑́̓̀͌̆s̶̥̭̝̯̃͊̕͘͠͠į̷̛̳̤͈̬̍͗̅̀ń̶̦͊̌̔̑͗͗g̷͎͐́̑ ̶̘͓̺̱͆̓͜ţ̶̢̡̧͉̜͙͙͚̘͓̼̝͙̥͔̟̦͓̮̯̞̘̞̫̺̱̖̀̉ḩ̶̨̧̡̛͈͍̙̖̮̫͚̜̜̮̦̻̼͉̪̻̹̀̌͊̽̓̄́̓̿̋͌̑͌͐̒͌͑̋̕̕̚ȋ̴̧̛̼̘̼̙̟͍̥̱͌̍͂́̐͐̈́̆̍̀͑̀̑͒͘s̶̮̖̟͔̥̮̭̥̺͕̲̪̪̅̑͜͝͝ ̸̝̹͕̬̱̠́̽̍̒͛͆͛̔͌̔̊̓̂̈̄̿͑̆͆̈́͑̂̐͘͝s̴̨̞͉̼̮̱̠̤̤̦͍͇̹̗̯̖̱͓͈̭̩̞̄͐͂͒͛̓̌̍̈́̐͛̏̐̀̀̕̚͘͘͘̕͜͜͝ǫ̷̢̡̢̡̛̟̙̥͚̬̹̼̺̦̭͇͈̣̥̝̂̌̊̓̿̃́̔̃̐̅̕̕f̶̟̳̮̠͔̻̾́̌͛̉͜ͅţ̶̢̡̧͉̜͙͙͚̘͓̼̝͙̥͔̟̦͓̮̯̞̘̞̫̺̱̖̀̉w̶̢̲̘̙̭̭̣̫̬͎̖͔͚̗̟̣̠͓̘̮͓̞͎̪̲͓̖̝̦̘͉̋̌͐͛̈̃̃͊͐͘͝͠ą̷̛̛̛̖̭͉̦̗̱̠̜͈͚͖̰̟͓̇͒̂̐̀̏̑͛̎̈̈̆̌͑̓̌͐̅̓͊̀̌̊̅̈́̚̚̚͠r̸̢̨̡̨̨͎̯͙̩͖͖̦̪͖̠̺̜̳̘̞̠̪̭̙̭͍̝͓͕͎̩̯͈͖̮͂͛̇͐̎̌̃̄̀͜͝ͅę̷͍̫̟͉̮̼͗̊̌͂̆̐̄̊̈́̍̍̄̇͘͠͠| |
