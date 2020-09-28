@@ -136,7 +136,7 @@ The onboard IPS LCD screen provides a rich GUI interface based on the LVGL embed
 |Color|Status|Description|Active|
 |-----|:----:|:----------|:----:|
 |🟦|**Excellent**|Robust, tested, stable, well-documented|✓|
-|🟩|**Good**|Correct, reusable|✓|
+|🟩|**Good**|Correct, easy to use or understand|✓|
 |🟨|**Reusable**|Functional, may require modification|✓|
 |🟧|**Deprecated**|No longer used or maintained| |
 |🟥|**Broken**|Partially implemented, missing or broken capabilities|✓|
