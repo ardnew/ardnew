@@ -1,4 +1,4 @@
-### The following software is all personally authored and free for public use (unless noted otherwise).
+### The following software is all personally authored and [free for public use](LICENSE) (unless noted otherwise).
 
 #### Pull requests, criticism, and [donations](https://cash.app/$ardnew) welcome. *No refunds*.
 
