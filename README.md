@@ -38,12 +38,15 @@
 
 [rosterdocimg]:https://godoc.org/github.com/ardnew/roster?status.svg
 [rosterdocurl]:https://godoc.org/github.com/ardnew/roster
+[mkgodocimg]:https://godoc.org/github.com/ardnew/mkgo?status.svg
+[mkgodocurl]:https://godoc.org/github.com/ardnew/mkgo
 
 |[㏄](#color-code)|Repository|Command|Documentation|Description|
 |--|:---------|:-----:|:-----------:|:----------|
 |[🟦](#color-code)|[`ardnew/roster`](https://github.com/ardnew/roster)|`roster`|[![GoDoc][rosterdocimg]][rosterdocurl]|Check which files have changed using configurable directory index file|
 |[🟦](#color-code)|[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[`cmd/ipseq`](https://github.com/ardnew/ipseq/tree/master/cmd/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Print IPv4 addresses in ranges similar to `seq` from [GNU coreutils](https://github.com/coreutils/coreutils)|
 |[🟩](#color-code)|[`ardnew/lcpre`](https://github.com/ardnew/lcpre)|`lcpre`|--|Determine the longest common prefix among multiple strings|
+|[🟦](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
 
 #### Raspberry Pi
 
