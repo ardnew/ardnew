@@ -82,6 +82,7 @@
 |[🟩](#color-code)|[`ardnew/pcp`](https://github.com/ardnew/pcp)|`pcp`|\*|File and directory copy on ~~steroids~~PCP|
 |[⬛](#color-code)|[`ardnew/ios-scripts`](https://github.com/ardnew/ios-scripts)|`iosctrl`|macOS|Analyze, compile, and package iOS applications from Xcode projects|
 |[🟩](#color-code)|[`ardnew/bases`](https://github.com/ardnew/bases)|`bases`|\*|Evaluate and print expressions in various bases|
+|[🟩](#color-code)|[`ardnew/chars`](https://github.com/ardnew/chars)|`chars`|\*|Print ASCII and regular expression character class tables|
 
 # Bash
 
