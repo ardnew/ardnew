@@ -6,7 +6,7 @@
 
 ###### Each repository is assigned a subjective color code (㏄) to indicate its status and general quality. See [Color Code](#color-code) for definitions.
 
-# Go 
+# [Go](https://golang.org/) 
 
 #### Modules
 
@@ -22,7 +22,7 @@
 [ipseqdocurl]:https://godoc.org/github.com/ardnew/ipseq
 
 |[㏄](#color-code)|Repository|Documentation|Description|
-|--|:--------:|:-----:|:----------|
+|-----------------|:--------:|:-----:|:----------|
 |[🟦](#color-code)|[`ardnew/mcp2221a`](https://github.com/ardnew/mcp2221a)|[![GoDoc][mcp2221adocimg]][mcp2221adocurl]|Go module for the MCP2221A USB to I²C/UART Protocol Converter with GPIO|
 |[🟦](#color-code)|[`ardnew/ft232h`](https://github.com/ardnew/ft232h)|[![GoDoc][ft232hdocimg]][ft232hdocurl]|Go module for FTDI FT232H USB to GPIO/SPI/I²C/JTAG/UART protocol converter|
 |[🟩](#color-code)|[`ardnew/version`](https://github.com/ardnew/version)|[![GoDoc][versiondocimg]][versiondocurl]|Go module to easily embed semantic versioning compliance with change history|
@@ -32,7 +32,7 @@
 #### Shell integration
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
-|--|:--------:|:-----:|:---------:|:----------|
+|-----------------|:--------:|:-----:|:---------:|:----------|
 |[🟦](#color-code)|[`ardnew/gosh`](https://github.com/ardnew/gosh)|[`cmd/gosh`](https://github.com/ardnew/gosh/tree/master/cmd/gosh)|Linux|Launch shell with YAML-driven environment|
 |[🟦](#color-code)|[`ardnew/gosh`](https://github.com/ardnew/gosh)|[`cmd/goshfun`](https://github.com/ardnew/gosh/tree/master/cmd/goshfun)|Linux|Generate command-line interface for Go library functions|
 
@@ -44,23 +44,41 @@
 [mkgodocurl]:https://godoc.org/github.com/ardnew/mkgo
 
 |[㏄](#color-code)|Repository|Command|Documentation|Description|
-|--|:---------|:-----:|:-----------:|:----------|
+|-----------------|:--------:|:-----:|:-----------:|:----------|
 |[🟦](#color-code)|[`ardnew/roster`](https://github.com/ardnew/roster)|`roster`|[![GoDoc][rosterdocimg]][rosterdocurl]|Check which files have changed using configurable directory index file|
 |[🟦](#color-code)|[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[`cmd/ipseq`](https://github.com/ardnew/ipseq/tree/master/cmd/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Print IPv4 addresses in ranges similar to `seq` from [GNU coreutils](https://github.com/coreutils/coreutils)|
 |[🟩](#color-code)|[`ardnew/lcpre`](https://github.com/ardnew/lcpre)|`lcpre`|--|Determine the longest common prefix among multiple strings|
 |[🟦](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
 
-#### Raspberry Pi
+#### [Raspberry Pi](https://www.raspberrypi.org/)
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
-|--|:---------|:-----:|:---------:|:----------|
+|-----------------|:--------:|:-----:|:---------:|:----------|
 |[🟩](#color-code)|[`ardnew/rpireboot`](https://github.com/ardnew/rpireboot)|`rpireboot`|Linux (systemd)|Raspberry Pi service to reboot system on GPIO interrupt|
 |[🟨](#color-code)|[`ardnew/remax`](https://github.com/ardnew/remax)|`remax`|Linux|Maximize serial terminal based on current window size|
 
-# Arduino
+# TinyGo
+
+#### Boards
+
+|[㏄](#color-code)|Repository|Branch|Target/Host|Hardware Support|
+|-----------------|:--------:|:----:|:---------:|:-----:|
+|[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/teensy40](https://github.com/ardnew/tinygo/tree/board/teensy40)|[PJRC Teensy 4.0](https://www.pjrc.com/store/teensy40.html)|GPIO, NVIC, ADC, UART, I²C, SPI|
+|[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/matrixportal-m4](https://github.com/ardnew/tinygo/tree/board/matrixportal-m4)|[Adafruit Matrix Portal M4](https://learn.adafruit.com/adafruit-matrixportal-m4)|GPIO, NVIC, ADC, PWM, UART, I²C, SPI, HUB75|
+|[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/feather-stm32f405](https://github.com/ardnew/tinygo/tree/board/feather-stm32f405)|[Adafruit STM32F405 Feather](https://learn.adafruit.com/adafruit-stm32f405-feather-express)|GPIO, UART, I²C, SPI|
+
+#### [`import "tinygo.org/x/drivers"`](https://github.com/tinygo-org/drivers/)
+|[㏄](#color-code)|Repository|Branch|Target/Host|Interface|Description|
+|-----------------|:--------:|:----:|:---------:|:-------:|:----------|
+|[🟦](#color-code)|[`ardnew/tinygo-stusb4500`](https://github.com/ardnew/tinygo-stusb4500)|[`stusb4500`](https://github.com/ardnew/drivers/tree/stusb4500)|\*|I²C|[STUSB4500](https://www.st.com/resource/en/datasheet/stusb4500.pdf) USB PD sink controller|
+|[🟦](#color-code)|[`ardnew/drivers`](https://github.com/ardnew/drivers)|[`rgb75`](https://github.com/ardnew/drivers/tree/rgb75)|ATSAMD51|GPIO|HUB75 RGB LED matrix panel|
+|[🟦](#color-code)|[`ardnew/drivers`](https://github.com/ardnew/drivers)|[`stm32f4-spi`](https://github.com/ardnew/drivers/tree/stm32f4-spi)|STM32F4|SPI|ILI9341 TFT LCD (Adafruit STM32F405 Feather)|
+|[🟦](#color-code)|[`ardnew/drivers`](https://github.com/ardnew/drivers)|[`teensy40-spi`](https://github.com/ardnew/drivers/tree/teensy40-spi)|MIMXRT1062|SPI|ILI9341 TFT LCD (Teensy 4.0/4.1)|
+
+# [Arduino](https://www.arduino.cc/)
 
 |[㏄](#color-code)|Repository|Target/Host|Description|
-|--|:---------|:---------:|:----------|
+|-----------------|:--------:|:---------:|:----------|
 |[🟦](#color-code)|[`ardnew/STUSB4500`](https://github.com/ardnew/STUSB4500)|Arduino|Arduino library for real-time capabilities of the STUSB4500 USB PD sink controller|
 |[🟩](#color-code)|[`ardnew/timecard`](https://github.com/ardnew/timecard)|Arduino|PyPortal (Arduino) application to track hours charged to projects|
 |[🟩](#color-code)|[`ardnew/ILI9341-Layout-Manager`](https://github.com/ardnew/ILI9341-Layout-Manager)|Arduino|An autolayout engine with callback support for designing and organizing buttons, text fields, and modal windows for ILI9341 chipsets|
@@ -69,33 +87,33 @@
 |[🟨](#color-code)|[`ardnew/upd-layman`](https://github.com/ardnew/upd-layman)|Arduino|USB-C Power Delivery protocol analyzer and sink controller with versatile touchscreen interface|
 |[🟨](#color-code)|[`ardnew/pwsens-8266`](https://github.com/ardnew/pwsens-8266)|Arduino|Voltage and current monitor with Adafruit INA260 for the Heltec WiFi Kit 8 OLED|
 
-# STM32
+# [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
 
 |[㏄](#color-code)|Repository|Target/Host|Description|
-|--|:---------|:---------:|:----------|
+|-----------------|:--------:|:---------:|:----------|
 |[🟦](#color-code)|[`ardnew/ILI9341-STM32-HAL`](https://github.com/ardnew/ILI9341-STM32-HAL)|STM32|ILI9341 color TFT display and XPT2046 touchscreen driver for STM32 using HAL SPI with DMA|
 |[🟦](#color-code)|[`ardnew/INA260-STM32-HAL`](https://github.com/ardnew/INA260-STM32-HAL)|STM32|INA260 voltage/current sensor driver for STM32 using HAL I²C|
 
-# Perl
+# [Perl 5](https://www.perl.org/)
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
-|--|:---------|:-----:|:---------:|:----------|
+|-----------------|:--------:|:-----:|:---------:|:----------|
 |[🟧](#color-code)|[`ardnew/perl-mod`](https://github.com/ardnew/perl-mod)|--|\*|Pure Perl modules for I/O, functional iterators, files, and list utilities.|
 |[🟩](#color-code)|[`ardnew/pcp`](https://github.com/ardnew/pcp)|`pcp`|\*|File and directory copy on ~~steroids~~PCP|
 |[⬛](#color-code)|[`ardnew/ios-scripts`](https://github.com/ardnew/ios-scripts)|`iosctrl`|macOS|Analyze, compile, and package iOS applications from Xcode projects|
 |[🟩](#color-code)|[`ardnew/bases`](https://github.com/ardnew/bases)|`bases`|\*|Evaluate and print expressions in various bases|
 |[🟩](#color-code)|[`ardnew/chars`](https://github.com/ardnew/chars)|`chars`|\*|Print ASCII and regular expression character class tables|
 
-# Bash
+# [Bash](https://www.gnu.org/software/bash/)
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
-|--|:---------|:-----:|:---------:|:----------|
+|-----------------|:--------:|:-----:|:---------:|:----------|
 |[🟩](#color-code)|[`ardnew/bash-arduino`](https://github.com/ardnew/bash-arduino)|`ino`|\*|bash environment and utilities for simplifying `arduino-cli` interactions|
 
-# Delphi
+# [Delphi](https://www.embarcadero.com/products/delphi/)
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
-|--|:---------|:-----:|:---------:|:----------|
+|-----------------|:--------:|:-----:|:---------:|:----------|
 |[🟧](#color-code)|[`ardnew/mswin-systool`](https://github.com/ardnew/mswin-systool)|`SysTool.exe`|Windows XP/7|System tray utility for bit pattern manipulation (two's-complement, IEEE-754, base conversions), file analysis (hex dump, checksum, NTFS/FAT attributes), and other stuff.|
 
 # Projects
@@ -107,7 +125,7 @@ Two separate projects for implementing a wirelessly-controlled LED strip using B
 ### Android mobile device -to- Arduino-driven LED strip
 
 |[㏄](#color-code)|Repository|Application|Target/Host|
-|--|:---------|:---------:|:---------:|
+|-----------------|:--------:|:---------:|:---------:|
 |[🟩](#color-code)|[`ardnew/ItsyBitsy-BLE-LED`](https://github.com/ardnew/ItsyBitsy-BLE-LED)|`ItsyBitsy-BLE-LED`|Adafruit ItsyBitsy nRF52840 (Arduino/C++)|
 |[🟩](#color-code)|[`ardnew/Android-BLE-LED`](https://github.com/ardnew/Android-BLE-LED)|`Blixel`|Android (Java)|
 
@@ -124,7 +142,7 @@ Currently supports several modes of operation:
 ### Arduino sensor-based device -to- Arduino-driven LED strip
 
 |[㏄](#color-code)|Repository|Application|Target/Host|
-|--|:---------|:---------:|:---------:|
+|-----------------|:--------:|:---------:|:---------:|
 |[🟩](#color-code)|[`ardnew/NeoCLUE`](https://github.com/ardnew/NeoCLUE)|[`Controller`](https://github.com/ardnew/NeoCLUE/tree/master/sketchbook/Controller)|Adafruit CLUE nRF52840 (Arduino/C++)|
 |[🟩](#color-code)|[`ardnew/NeoCLUE`](https://github.com/ardnew/NeoCLUE)|[`Driver`](https://github.com/ardnew/NeoCLUE/tree/master/sketchbook/Driver)|Adafruit ItsyBitsy nRF52840 (Arduino/C++)|
 
