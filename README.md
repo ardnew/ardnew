@@ -57,9 +57,9 @@
 |[🟩](#color-code)|[`ardnew/rpireboot`](https://github.com/ardnew/rpireboot)|`rpireboot`|Linux (systemd)|Raspberry Pi service to reboot system on GPIO interrupt|
 |[🟨](#color-code)|[`ardnew/remax`](https://github.com/ardnew/remax)|`remax`|Linux|Maximize serial terminal based on current window size|
 
-# TinyGo
+# [TinyGo](https://tinygo.org/)
 
-#### Boards
+#### [Microcontrollers](https://tinygo.org/microcontrollers/)
 
 |[㏄](#color-code)|Repository|Branch|Target/Host|Hardware Support|
 |-----------------|:--------:|:----:|:---------:|:-----:|
