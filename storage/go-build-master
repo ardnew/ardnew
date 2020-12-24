@@ -1,5 +1,5 @@
 andrew@trip /usr/local/src/go
- ⧨  ./pull-and-build.sh -r /usr/local/src/go/dev -b master -g  /usr/local/lib/go1.14.4
+ ⧨  ./pull-and-build.sh -r /usr/local/src/go/dev -b master -g /usr/local/lib/go1.14.4
 warning: build output will not be installed system-wide: /usr/local/src/go/dev
 --------------------------------------------------------------------------------
  -- source: /usr/local/src/go/dev
