@@ -120,9 +120,10 @@
 
 ## Wireless LED Strip Controllers/Drivers
 
-Two separate projects for implementing a wirelessly-controlled LED strip using Bluetooth (LE):
+Two separate projects for implementing a wirelessly-controlled LED strip using Bluetooth Low-Energy (LE):
 
-### Android mobile device -to- Arduino-driven LED strip
+### **Blixel** — General-purpose wireless LED strip controller for Android mobile phones/tablets
+#####   Android mobile device -_to_- Arduino-driven LED strip
 
 |[㏄](#color-code)|Repository|Application|Target/Host|
 |-----------------|:--------:|:---------:|:---------:|
@@ -131,15 +132,16 @@ Two separate projects for implementing a wirelessly-controlled LED strip using B
 
 Designed for Android mobile devices, implemented using an Adafruit ItsyBitsy nRF52840 and a 300-pixel (5 meters) RGB LED WS2815 strip. 
 
-Instead of the commonly-found serial UART string protocols (hacks!), a custom BLE GATT protocol was designed as communication transport — which provides a structured message framework for **much** faster communication processing. 
+Instead of the commonly-found Bluetooth (LE) to serial UART string-based frameworks (_**hacks!**_), a custom BLE GATT protocol was designed as communication transport — which provides a rich, structured message framework for **much faster** (and more reliable) communication to transmit per-pixel and/or per-segment color information.
 
 Currently supports several modes of operation: 
 
-- Color fill entire strip, subrange, or individual pixels
+- Color fill entire strip, partial strip (segment), or individual pixels
 - Parameterized animation patterns (color wheel, theater chase, and fade/breathe)
 - Optional motion-activated trigger (passive-infrared or doppler radar) with timer — great as a nightlight!
 
-### Arduino sensor-based device -to- Arduino-driven LED strip
+### **NeoCLUE** — Real-time sensor-reactive wireless LED strip controller
+#####   Arduino sensor-based device -_to_- Arduino-driven LED strip
 
 |[㏄](#color-code)|Repository|Application|Target/Host|
 |-----------------|:--------:|:---------:|:---------:|
