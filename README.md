@@ -59,7 +59,7 @@
 
 # [TinyGo](https://tinygo.org/)
 
-#### [Microcontrollers](https://tinygo.org/microcontrollers/)
+#### [Microcontrollers](https://tinygo.org/microcontrollers/) (board support)
 
 |[㏄](#color-code)|Repository|Branch|Target/Host|Hardware Support|
 |-----------------|:--------:|:----:|:---------:|:-----:|
@@ -67,7 +67,7 @@
 |[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/matrixportal-m4](https://github.com/ardnew/tinygo/tree/board/matrixportal-m4)|[Adafruit Matrix Portal M4](https://learn.adafruit.com/adafruit-matrixportal-m4)|GPIO, NVIC, ADC, PWM, UART, I²C, SPI, HUB75|
 |[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/feather-stm32f405](https://github.com/ardnew/tinygo/tree/board/feather-stm32f405)|[Adafruit STM32F405 Feather](https://learn.adafruit.com/adafruit-stm32f405-feather-express)|GPIO, UART, I²C, SPI|
 
-#### [`import "tinygo.org/x/drivers"`](https://github.com/tinygo-org/drivers/)
+#### [`import "tinygo.org/x/drivers"`](https://github.com/tinygo-org/drivers/) (peripheral drivers)
 |[㏄](#color-code)|Repository|Branch|Target/Host|Interface|Description|
 |-----------------|:--------:|:----:|:---------:|:-------:|:----------|
 |[🟦](#color-code)|[`ardnew/tinygo-stusb4500`](https://github.com/ardnew/tinygo-stusb4500)|[`stusb4500`](https://github.com/ardnew/drivers/tree/stusb4500)|\*|I²C|[STUSB4500](https://www.st.com/resource/en/datasheet/stusb4500.pdf) USB PD sink controller|
