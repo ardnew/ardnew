@@ -1,4 +1,3 @@
-![ardnew's github stats](https://github-readme-stats.vercel.app/api?username=ardnew&show_icons=true&count_private=true&include_all_commits=true&custom_title=ardnew&theme=default)
 
 ### The following software is all personally authored and [free for public use](LICENSE) (unless noted otherwise).
 
@@ -169,6 +168,8 @@ The onboard IPS LCD screen provides a rich GUI interface based on the LVGL embed
 |🟥|**Broken**|Partially implemented, missing or broken capabilities|✓|
 |⬛|**⁉**|Y̴o̵u̶ ̷m̵̦̚à̷̤y̶̧̕ ̸̱͋ḧ̵̰̻́̐̉̚a̸͕̰̅̍͊̓͆v̷͚̳̏̿̓͊é̶̡̯̘̻͈̐̌̎̾ ̴̖͔̯̪̠̾̎s̴̲̣̮͒̏̿͝ȩ̴̦͎̥̻̰͇͆̾ŗ̴̪̰̥̽̑́͒̈́i̶̢͕̺̲͕̬͊̀̓ô̵̹̲͉̼̻̎̽u̶̡̢̢̫̳͔̓͑̂̔̑̃͘s̴͕̊͆̅̕ ̵̘͓͙̃͘p̵̺̠̥̝͔̀ṙ̶̡̺̣̞̯̆̏͜ő̸̧b̵̫̜͖̓̈͒͗ĺ̴̢̝͖̬͙̳̀ę̸̹͒̐̓̌̿̽͝ͅm̸̟̬̪̣̖̮͒̍͊̐͑͛͘s̷̛̫̤͐͗̇̾̃ ̸̢̛̣͋̐̎͋̎̈́u̶̳̥̭͑́̓̀͌̆s̶̥̭̝̯̃͊̕͘͠͠į̷̛̳̤͈̬̍͗̅̀ń̶̦͊̌̔̑͗͗g̷͎͐́̑ ̶̘͓̺̱͆̓͜ţ̶̢̡̧͉̜͙͙͚̘͓̼̝͙̥͔̟̦͓̮̯̞̘̞̫̺̱̖̀̉ḩ̶̨̧̡̛͈͍̙̖̮̫͚̜̜̮̦̻̼͉̪̻̹̀̌͊̽̓̄́̓̿̋͌̑͌͐̒͌͑̋̕̕̚ȋ̴̧̛̼̘̼̙̟͍̥̱͌̍͂́̐͐̈́̆̍̀͑̀̑͒͘s̶̮̖̟͔̥̮̭̥̺͕̲̪̪̅̑͜͝͝ ̸̝̹͕̬̱̠́̽̍̒͛͆͛̔͌̔̊̓̂̈̄̿͑̆͆̈́͑̂̐͘͝s̴̨̞͉̼̮̱̠̤̤̦͍͇̹̗̯̖̱͓͈̭̩̞̄͐͂͒͛̓̌̍̈́̐͛̏̐̀̀̕̚͘͘͘̕͜͜͝ǫ̷̢̡̢̡̛̟̙̥͚̬̹̼̺̦̭͇͈̣̥̝̂̌̊̓̿̃́̔̃̐̅̕̕f̶̟̳̮̠͔̻̾́̌͛̉͜ͅţ̶̢̡̧͉̜͙͙͚̘͓̼̝͙̥͔̟̦͓̮̯̞̘̞̫̺̱̖̀̉w̶̢̲̘̙̭̭̣̫̬͎̖͔͚̗̟̣̠͓̘̮͓̞͎̪̲͓̖̝̦̘͉̋̌͐͛̈̃̃͊͐͘͝͠ą̷̛̛̛̖̭͉̦̗̱̠̜͈͚͖̰̟͓̇͒̂̐̀̏̑͛̎̈̈̆̌͑̓̌͐̅̓͊̀̌̊̅̈́̚̚̚͠r̸̢̨̡̨̨͎̯͙̩͖͖̦̪͖̠̺̜̳̘̞̠̪̭̙̭͍̝͓͕͎̩̯͈͖̮͂͛̇͐̎̌̃̄̀͜͝ͅę̷͍̫̟͉̮̼͗̊̌͂̆̐̄̊̈́̍̍̄̇͘͠͠| |
 
-# Habits
+# Culpability
+
+![ardnew's github stats](https://github-readme-stats.vercel.app/api?username=ardnew&show_icons=true&count_private=true&include_all_commits=true&custom_title=ardnew&theme=default)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ardnew&langs_count=8&theme=default)
