@@ -41,6 +41,8 @@
 [rosterdocurl]:https://godoc.org/github.com/ardnew/roster
 [mkgodocimg]:https://godoc.org/github.com/ardnew/mkgo?status.svg
 [mkgodocurl]:https://godoc.org/github.com/ardnew/mkgo
+[wslpathdocimg]:https://godoc.org/github.com/ardnew/wslpath?status.svg
+[wslpathdocurl]:https://godoc.org/github.com/ardnew/wslpath
 
 |[㏄](#color-code)|Repository|Command|Documentation|Description|
 |-----------------|:--------:|:-----:|:-----------:|:----------|
@@ -48,6 +50,7 @@
 |[🟦](#color-code)|[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[`cmd/ipseq`](https://github.com/ardnew/ipseq/tree/master/cmd/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Print IPv4 addresses in ranges similar to `seq` from [GNU coreutils](https://github.com/coreutils/coreutils)|
 |[🟩](#color-code)|[`ardnew/lcpre`](https://github.com/ardnew/lcpre)|`lcpre`|--|Determine the longest common prefix among multiple strings|
 |[🟦](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
+|[🟦](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
 
 #### [Raspberry Pi](https://www.raspberrypi.org/)
 
