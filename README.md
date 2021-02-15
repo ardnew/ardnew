@@ -160,6 +160,16 @@ Various animation patterns (e.g., color pulse/fade using microphone audio levels
 
 The onboard IPS LCD screen provides a rich GUI interface based on the LVGL embedded graphics library.
 
+## WiFi-Enabled Timecard 
+
+|[㏄](#color-code)|Repository|Target/Host|
+|-----------------|:--------:|:---------:|
+|[🟩](#color-code)|[`ardnew/timecard`](https://github.com/ardnew/timecard)|Adafruit PyPortal (SAMD51) (Arduino/C++)|
+
+This software lets you select a project and an associated activity, then you can start and stop a timer that tracks how many hours you worked on that activity.
+
+Designed for the Adafruit PyPortal, it takes advantage of the ESP32 WiFi module by automatically synchronizing local time with an NTP server. Additionally, time is tracked by logging to the internal SD card, making it easy to open and read from a PC when you actually submit your hours wherever. Alternatively, if your time-tracking system and the PyPortal are on a shared network, the software could easily be modified to submit your time automatically.
+
 # Color Code
 
 |Color|Status|Description|Active|
