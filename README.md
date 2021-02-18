@@ -1,7 +1,7 @@
 
 ### The following software is all personally authored and [free for public use](LICENSE) unless noted otherwise.
 
-### PGP/SSH public keys are located at [ardnew.com/keys](https://ardnew.com/keys). Backups are stored in this repository at [ardnew/keys](keys).
+### PGP/SSH public keys are located at [ardnew.com/keys](https://ardnew.com/keys). Backups are stored on GitHub at [ardnew/keys](keys).
 
 #### Pull requests, criticism, and [donations](https://cash.app/$ardnew) welcome. *No refunds*.
 
