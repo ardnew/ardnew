@@ -1,10 +1,10 @@
 ### Please use or install the following public keys to verify my identity.
 
-|File                                      |Format |Type |Size    |
-|:----------------------------------------:|:-----:|:---:|:------:|
-|[ardnew.id_pgp.asc](ardnew.id_pgp.asc)    |PGP    |RSA  |4096-bit|
-|[ardnew.id_rsa.pub](ardnew.id_rsa.pub)    |OpenSSH|RSA  |4096-bit|
-|[ardnew.id_ecdsa.pub](ardnew.id_ecdsa.pub)|OpenSSH|ECDSA|521-bit |
+|File                                      |Format |Type |Size    |Fingerprint                                         |
+|:----------------------------------------:|:-----:|:---:|:------:|:--------------------------------------------------:|
+|[ardnew.id_pgp.asc](ardnew.id_pgp.asc)    |PGP    |RSA  |4096-bit|`4089 2816 4F4B BA89 600C  A258 6955 75CC C881 6281`|
+|[ardnew.id_rsa.pub](ardnew.id_rsa.pub)    |OpenSSH|RSA  |4096-bit|`SHA256:vN+nIylJJlqRBMPz2haOadJIIgunVFi7aAhcB0IVS8Q`|
+|[ardnew.id_ecdsa.pub](ardnew.id_ecdsa.pub)|OpenSSH|ECDSA|521-bit |`SHA256:+fm4Av8paq2dVs0SfqgV5UKGgQREgu1A8JMf7QR6N4k`|
 
 # GnuPG (PGP)
 
