@@ -1,6 +1,8 @@
 
 ### The following software is all personally authored and [free for public use](LICENSE) (unless noted otherwise).
 
+### Public keys used to verify my identity can be found at [https://ardnew.com/keys/](https://ardnew.com/keys/). Backups can also be found on GitHub at [ardnew/keys](keys).
+
 #### Pull requests, criticism, and [donations](https://cash.app/$ardnew) welcome. *No refunds*.
 
 ###### Each repository is assigned a subjective color code (㏄) to indicate its status and general quality. See [Color Code](#color-code) for definitions.
