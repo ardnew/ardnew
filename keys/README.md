@@ -1,10 +1,21 @@
-### Please use or install the following public keys to verify my identity.
+### Import and sign the following public keys locally to verify my identity.
 
 |File                                      |Format |Type |Size    |Fingerprint                                         |
 |:----------------------------------------:|:-----:|:---:|:------:|:--------------------------------------------------:|
 |[ardnew.id_pgp.asc](ardnew.id_pgp.asc)    |PGP    |RSA  |4096-bit|`4089 2816 4F4B BA89 600C  A258 6955 75CC C881 6281`|
 |[ardnew.id_rsa.pub](ardnew.id_rsa.pub)    |OpenSSH|RSA  |4096-bit|`SHA256:vN+nIylJJlqRBMPz2haOadJIIgunVFi7aAhcB0IVS8Q`|
 |[ardnew.id_ecdsa.pub](ardnew.id_ecdsa.pub)|OpenSSH|ECDSA|521-bit |`SHA256:+fm4Av8paq2dVs0SfqgV5UKGgQREgu1A8JMf7QR6N4k`|
+
+#### GitHub Web Interface
+Note that I occasionally use the GitHub Web interface for committing changes (particularly when editing Markdown files like `README.md`). In this case, GitHub uses [its own PGP key](https://github.com/web-flow.gpg) to sign the commit instead of any user-provided key. 
+
+You can import and sign the GitHub Web-flow public key locally to verify the identity of **anyone** using the GitHub Web interface:
+
+|File                                                      |Format |Type |Size    |Fingerprint                                         |
+|:--------------------------------------------------------:|:-----:|:---:|:------:|:--------------------------------------------------:|
+|[github.com/web-flow.gpg](https://github.com/web-flow.gpg)|PGP    |RSA  |2048-bit|`5DE3 E050 9C47 EA3C F04A  42D3 4AEE 18F8 3AFD EB23`|
+
+Read more about this in [the GitHub docs](https://docs.github.com/en/github/authenticating-to-github/about-commit-signature-verification). 
 
 # GnuPG (PGP)
 
