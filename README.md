@@ -57,7 +57,7 @@
 |[🟩](#color-code)|[`ardnew/lcpre`](https://github.com/ardnew/lcpre)|`lcpre`|--|Determine the longest common prefix among multiple strings|
 |[🟦](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
 |[🟦](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
-|[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[`cmd/lsi`](https://github.com/ardnew/lsi/tree/master/cmd/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Follow elements of a file path|
+|[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[`cmd/lsi`](https://github.com/ardnew/lsi/tree/main/cmd/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Follow elements of a file path|
 
 #### [Raspberry Pi](https://www.raspberrypi.org/)
 
