@@ -22,12 +22,16 @@
 [ipseqdocimg]:https://godoc.org/github.com/ardnew/ipseq?status.svg
 [ipseqdocurl]:https://godoc.org/github.com/ardnew/ipseq
 
+[lsidocimg]:https://godoc.org/github.com/ardnew/lsi?status.svg
+[lsidocurl]:https://godoc.org/github.com/ardnew/lsi
+
 |[㏄](#color-code)|Repository|Documentation|Description|
 |-----------------|:--------:|:-----:|:----------|
 |[🟦](#color-code)|[`ardnew/mcp2221a`](https://github.com/ardnew/mcp2221a)|[![GoDoc][mcp2221adocimg]][mcp2221adocurl]|Go module for the MCP2221A USB to I²C/UART Protocol Converter with GPIO|
 |[🟦](#color-code)|[`ardnew/ft232h`](https://github.com/ardnew/ft232h)|[![GoDoc][ft232hdocimg]][ft232hdocurl]|Go module for FTDI FT232H USB to GPIO/SPI/I²C/JTAG/UART protocol converter|
 |[🟩](#color-code)|[`ardnew/version`](https://github.com/ardnew/version)|[![GoDoc][versiondocimg]][versiondocurl]|Go module to easily embed semantic versioning compliance with change history|
 |[🟦](#color-code)|[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Go module to parse and iterate over IPv4 address intervals|
+|[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Go module to follow elements of a file path|
 |[🟨](#color-code)|[`ardnew/oibot`](https://github.com/ardnew/oibot)|--|Go package for controlling iRobot Create 2 robots using Open Interface (OI) specification|
 
 #### Shell integration
@@ -53,6 +57,7 @@
 |[🟩](#color-code)|[`ardnew/lcpre`](https://github.com/ardnew/lcpre)|`lcpre`|--|Determine the longest common prefix among multiple strings|
 |[🟦](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
 |[🟦](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
+|[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[`cmd/lsi`](https://github.com/ardnew/lsi/tree/master/cmd/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Follow elements of a file path|
 
 #### [Raspberry Pi](https://www.raspberrypi.org/)
 
