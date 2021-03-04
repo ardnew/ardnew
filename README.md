@@ -49,6 +49,8 @@
 [mkgodocurl]:https://godoc.org/github.com/ardnew/mkgo
 [wslpathdocimg]:https://godoc.org/github.com/ardnew/wslpath?status.svg
 [wslpathdocurl]:https://godoc.org/github.com/ardnew/wslpath
+[svngrabdocimg]:https://godoc.org/github.com/ardnew/svngrab?status.svg
+[svngrabdocurl]:https://godoc.org/github.com/ardnew/svngrab
 
 |[㏄](#color-code)|Repository|Command|Documentation|Description|
 |-----------------|:--------:|:-----:|:-----------:|:----------|
@@ -58,6 +60,7 @@
 |[🟦](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
 |[🟦](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
 |[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[`cmd/lsi`](https://github.com/ardnew/lsi/tree/main/cmd/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Follow elements of a file path similar to `namei` from [util-linux](https://www.kernel.org/pub/linux/utils/util-linux/)|
+|[🟦](#color-code)|[`ardnew/svngrab`](https://github.com/ardnew/svngrab)|[`svngrab`](https://github.com/ardnew/svngrab)|[![GoDoc][svngrabdocimg]][svngrabdocurl]|Export and merge paths from SVN repositories|
 
 #### [Raspberry Pi](https://www.raspberrypi.org/)
 
