@@ -69,6 +69,12 @@
 |[🟩](#color-code)|[`ardnew/rpireboot`](https://github.com/ardnew/rpireboot)|`rpireboot`|Linux (systemd)|Raspberry Pi service to reboot system on GPIO interrupt|
 |[🟨](#color-code)|[`ardnew/remax`](https://github.com/ardnew/remax)|`remax`|Linux|Maximize serial terminal based on current window size|
 
+#### Build Tools
+
+|[㏄](#color-code)|Repository|Description|
+|-----------------|:--------:|:----------|
+|[🟦](#color-code)|[`ardnew/go-Makefile`](https://github.com/ardnew/go-Makefile)|A simple Makefile for cross-compiling Go projects|
+
 # [TinyGo](https://tinygo.org/)
 
 #### [Microcontrollers](https://tinygo.org/microcontrollers/) (board support)
@@ -115,6 +121,7 @@
 |[⬛](#color-code)|[`ardnew/ios-scripts`](https://github.com/ardnew/ios-scripts)|`iosctrl`|macOS|Analyze, compile, and package iOS applications from Xcode projects|
 |[🟩](#color-code)|[`ardnew/bases`](https://github.com/ardnew/bases)|`bases`|\*|Evaluate and print expressions in various bases|
 |[🟩](#color-code)|[`ardnew/chars`](https://github.com/ardnew/chars)|`chars`|\*|Print ASCII and regular expression character class tables|
+|[🟦](#color-code)|[`ardnew/jlink-core-id`](https://github.com/ardnew/jlink-core-id)|`jlink-core-id`|\*|Get CPU core identifier for target board by name|
 
 # [Bash](https://www.gnu.org/software/bash/)
 
