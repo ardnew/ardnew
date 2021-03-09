@@ -63,7 +63,7 @@
 |[🟦](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
 |[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[`cmd/lsi`](https://github.com/ardnew/lsi/tree/main/cmd/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Follow elements of a file path similar to `namei` from [util-linux](https://www.kernel.org/pub/linux/utils/util-linux/)|
 |[🟦](#color-code)|[`ardnew/svngrab`](https://github.com/ardnew/svngrab)|`svngrab`|[![GoDoc][svngrabdocimg]][svngrabdocurl]|Export and merge paths from SVN repositories|
-|[🟩](#color-code)|[`ardnew/erro`](https://github.com/ardnew/erro)|`erro`|[![GoDoc][errodocimg]][errodocurl]|Echo text to stderr|
+|[🟦](#color-code)|[`ardnew/erro`](https://github.com/ardnew/erro)|`erro`|[![GoDoc][errodocimg]][errodocurl]|Echo text to stderr|
 
 #### [Raspberry Pi](https://www.raspberrypi.org/)
 
