@@ -15,24 +15,21 @@
 [mcp2221adocurl]:https://godoc.org/github.com/ardnew/mcp2221a
 [ft232hdocimg]:https://godoc.org/github.com/ardnew/ft232h?status.svg
 [ft232hdocurl]:https://godoc.org/github.com/ardnew/ft232h
-
-[versiondocimg]:https://godoc.org/github.com/ardnew/version?status.svg
-[versiondocurl]:https://godoc.org/github.com/ardnew/version
-
 [ipseqdocimg]:https://godoc.org/github.com/ardnew/ipseq?status.svg
 [ipseqdocurl]:https://godoc.org/github.com/ardnew/ipseq
-
 [lsidocimg]:https://godoc.org/github.com/ardnew/lsi?status.svg
 [lsidocurl]:https://godoc.org/github.com/ardnew/lsi
+[versiondocimg]:https://godoc.org/github.com/ardnew/version?status.svg
+[versiondocurl]:https://godoc.org/github.com/ardnew/version
 
 |[㏄](#color-code)|Repository|Documentation|Description|
 |-----------------|:--------:|:-----:|:----------|
 |[🟦](#color-code)|[`ardnew/mcp2221a`](https://github.com/ardnew/mcp2221a)|[![GoDoc][mcp2221adocimg]][mcp2221adocurl]|Go module for the MCP2221A USB to I²C/UART Protocol Converter with GPIO|
 |[🟦](#color-code)|[`ardnew/ft232h`](https://github.com/ardnew/ft232h)|[![GoDoc][ft232hdocimg]][ft232hdocurl]|Go module for FTDI FT232H USB to GPIO/SPI/I²C/JTAG/UART protocol converter|
-|[🟩](#color-code)|[`ardnew/version`](https://github.com/ardnew/version)|[![GoDoc][versiondocimg]][versiondocurl]|Go module to easily embed semantic versioning compliance with change history|
 |[🟦](#color-code)|[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Go module to parse and iterate over IPv4 address intervals|
 |[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Go module to follow elements of a file path|
-|[🟨](#color-code)|[`ardnew/oibot`](https://github.com/ardnew/oibot)|--|Go package for controlling iRobot Create 2 robots using Open Interface (OI) specification|
+|[🟧](#color-code)|[`ardnew/version`](https://github.com/ardnew/version)|[![GoDoc][versiondocimg]][versiondocurl]|Go module to easily embed semantic versioning compliance with change history|
+|[🟧](#color-code)|[`ardnew/oibot`](https://github.com/ardnew/oibot)|--|Go package for controlling iRobot Create 2 robots using Open Interface (OI) specification|
 
 #### Shell integration
 
@@ -45,25 +42,31 @@
 
 [rosterdocimg]:https://godoc.org/github.com/ardnew/roster?status.svg
 [rosterdocurl]:https://godoc.org/github.com/ardnew/roster
-[mkgodocimg]:https://godoc.org/github.com/ardnew/mkgo?status.svg
-[mkgodocurl]:https://godoc.org/github.com/ardnew/mkgo
-[wslpathdocimg]:https://godoc.org/github.com/ardnew/wslpath?status.svg
-[wslpathdocurl]:https://godoc.org/github.com/ardnew/wslpath
 [svngrabdocimg]:https://godoc.org/github.com/ardnew/svngrab?status.svg
 [svngrabdocurl]:https://godoc.org/github.com/ardnew/svngrab
 [errodocimg]:https://godoc.org/github.com/ardnew/erro?status.svg
 [errodocurl]:https://godoc.org/github.com/ardnew/erro
+[mkgodocimg]:https://godoc.org/github.com/ardnew/mkgo?status.svg
+[mkgodocurl]:https://godoc.org/github.com/ardnew/mkgo
+[wslpathdocimg]:https://godoc.org/github.com/ardnew/wslpath?status.svg
+[wslpathdocurl]:https://godoc.org/github.com/ardnew/wslpath
 
 |[㏄](#color-code)|Repository|Command|Documentation|Description|
 |-----------------|:--------:|:-----:|:-----------:|:----------|
 |[🟦](#color-code)|[`ardnew/roster`](https://github.com/ardnew/roster)|`roster`|[![GoDoc][rosterdocimg]][rosterdocurl]|Check which files have changed using configurable directory index file|
 |[🟦](#color-code)|[`ardnew/ipseq`](https://github.com/ardnew/ipseq)|[`cmd/ipseq`](https://github.com/ardnew/ipseq/tree/master/cmd/ipseq)|[![GoDoc][ipseqdocimg]][ipseqdocurl]|Print IPv4 addresses in ranges similar to `seq` from [GNU coreutils](https://github.com/coreutils/coreutils)|
-|[🟩](#color-code)|[`ardnew/lcpre`](https://github.com/ardnew/lcpre)|`lcpre`|--|Determine the longest common prefix among multiple strings|
-|[🟦](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
-|[🟦](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
+|[🟩](#color-code)|[`ardnew/lcpre`](https://github.com/ardnew/lcpre)|`lcpre`|--|Determine the longest common prefix among multiple strings (e.g., common ancestor directory)|
 |[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[`cmd/lsi`](https://github.com/ardnew/lsi/tree/main/cmd/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Follow elements of a file path similar to `namei` from [util-linux](https://www.kernel.org/pub/linux/utils/util-linux/)|
-|[🟦](#color-code)|[`ardnew/svngrab`](https://github.com/ardnew/svngrab)|`svngrab`|[![GoDoc][svngrabdocimg]][svngrabdocurl]|Export and merge paths from SVN repositories|
-|[🟦](#color-code)|[`ardnew/erro`](https://github.com/ardnew/erro)|`erro`|[![GoDoc][errodocimg]][errodocurl]|Echo text to stderr|
+|[🟦](#color-code)|[`ardnew/svngrab`](https://github.com/ardnew/svngrab)|`svngrab`|[![GoDoc][svngrabdocimg]][svngrabdocurl]|Export, merge, and package paths from SVN repositories per YAML configuration file|
+|[🟦](#color-code)|[`ardnew/erro`](https://github.com/ardnew/erro)|`erro`|[![GoDoc][errodocimg]][errodocurl]|Echo formatted text to stderr|
+|[🟧](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
+|[🟧](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
+
+#### Build Tools
+
+|[㏄](#color-code)|Repository|Description|
+|-----------------|:--------:|:----------|
+|[🟦](#color-code)|[`ardnew/go-Makefile`](https://github.com/ardnew/go-Makefile)|A flexible Makefile for Go "command" projects (native and cross-compilation)|
 
 #### [Raspberry Pi](https://www.raspberrypi.org/)
 
@@ -72,21 +75,23 @@
 |[🟩](#color-code)|[`ardnew/rpireboot`](https://github.com/ardnew/rpireboot)|`rpireboot`|Linux (systemd)|Raspberry Pi service to reboot system on GPIO interrupt|
 |[🟨](#color-code)|[`ardnew/remax`](https://github.com/ardnew/remax)|`remax`|Linux|Maximize serial terminal based on current window size|
 
-#### Build Tools
-
-|[㏄](#color-code)|Repository|Description|
-|-----------------|:--------:|:----------|
-|[🟦](#color-code)|[`ardnew/go-Makefile`](https://github.com/ardnew/go-Makefile)|A simple Makefile for cross-compiling Go projects|
-
 # [TinyGo](https://tinygo.org/)
 
-#### [Microcontrollers](https://tinygo.org/microcontrollers/) (board support)
+#### [Microcontrollers](https://tinygo.org/docs/reference/microcontrollers/) (board support)
 
 |[㏄](#color-code)|Repository|Branch|Target/Host|Hardware Support|
 |-----------------|:--------:|:----:|:---------:|:-----:|
-|[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/teensy40](https://github.com/ardnew/tinygo/tree/board/teensy40)|[PJRC Teensy 4.0](https://www.pjrc.com/store/teensy40.html)|GPIO, NVIC, ADC, UART, I²C, SPI|
+|[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/teensy40](https://github.com/ardnew/tinygo/tree/board/teensy40)|[PJRC Teensy 4.0](https://www.pjrc.com/store/teensy40.html)|GPIO, [NVIC](https://github.com/ardnew/tinygo/tree/feature/teensy40-irq), [ADC](https://github.com/ardnew/tinygo/tree/feature/teensy40-adc), [UART](https://github.com/ardnew/tinygo/tree/feature/teensy40-uart), [I²C](https://github.com/ardnew/tinygo/tree/feature/teensy40-i2c), [SPI](https://github.com/ardnew/tinygo/tree/feature/teensy40-spi), [USB FS/HS](https://github.com/ardnew/tinygo/tree/feature/usb-common)|
+|[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/teensy41](https://github.com/ardnew/tinygo/tree/board/teensy41)|[PJRC Teensy 4.1](https://www.pjrc.com/store/teensy41.html)|GPIO, [NVIC](https://github.com/ardnew/tinygo/tree/feature/teensy40-irq), [ADC](https://github.com/ardnew/tinygo/tree/feature/teensy40-adc), [UART](https://github.com/ardnew/tinygo/tree/feature/teensy40-uart), [I²C](https://github.com/ardnew/tinygo/tree/feature/teensy40-i2c), [SPI](https://github.com/ardnew/tinygo/tree/feature/teensy40-spi), [USB FS/HS](https://github.com/ardnew/tinygo/tree/feature/usb-common)|
+|[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/arduino-portenta-h7](https://github.com/ardnew/tinygo/tree/board/arduino-portenta-h7)|[Arduino Portenta H7](https://store.arduino.cc/usa/portenta-h7)|Dual-core (Cortex-M7 + Cortex-M4), synchronized GPIO via hardware semaphore (HSEM), [USB HS/FS](https://github.com/ardnew/tinygo/tree/feature/usb-common-arduino-portenta)|
+|[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/grandcentral-m4](https://github.com/ardnew/tinygo/tree/board/grandcentral-m4)|[Adafruit Grand Central M4](https://learn.adafruit.com/adafruit-grand-central)|GPIO, NVIC, ADC, PWM, UART, I²C, SPI, USB|
 |[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/matrixportal-m4](https://github.com/ardnew/tinygo/tree/board/matrixportal-m4)|[Adafruit Matrix Portal M4](https://learn.adafruit.com/adafruit-matrixportal-m4)|GPIO, NVIC, ADC, PWM, UART, I²C, SPI, HUB75|
 |[🟦](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[board/feather-stm32f405](https://github.com/ardnew/tinygo/tree/board/feather-stm32f405)|[Adafruit STM32F405 Feather](https://learn.adafruit.com/adafruit-stm32f405-feather-express)|GPIO, UART, I²C, SPI|
+
+#### [Core (`machine`, `runtime`)](https://tinygo.org/docs/reference/machine/)
+|[㏄](#color-code)|Repository|Branch|Target/Host|Description|
+|-----------------|:--------:|:----:|:---------:|:---------:|
+|[🟩](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[feature/usb-common](https://github.com/ardnew/tinygo/tree/feature/usb-common)|\*|Common (target-agnostic) USB device-only driver — CDC-ACM, HID, and composite device classes (includes virtual serial/UART and HID keyboard drivers). Current support: Teensy 4.0/4.1; partial support: [Arduino Portenta H7](https://github.com/ardnew/tinygo/tree/feature/usb-common-arduino-portenta)|
 
 #### [`import "tinygo.org/x/drivers"`](https://github.com/tinygo-org/drivers/) (peripheral drivers)
 |[㏄](#color-code)|Repository|Branch|Target/Host|Interface|Description|
@@ -100,13 +105,15 @@
 
 |[㏄](#color-code)|Repository|Target/Host|Description|
 |-----------------|:--------:|:---------:|:----------|
+
+|[🟦](#color-code)|[`ardnew/portenta-tools`](https://github.com/ardnew/portenta-tools)|Arduino Portenta H7|Build and debug tools for Arduino Portenta H7|
 |[🟦](#color-code)|[`ardnew/STUSB4500`](https://github.com/ardnew/STUSB4500)|Arduino|Arduino library for real-time capabilities of the STUSB4500 USB PD sink controller|
-|[🟩](#color-code)|[`ardnew/timecard`](https://github.com/ardnew/timecard)|Arduino|PyPortal (Arduino) application to track hours charged to projects|
-|[🟩](#color-code)|[`ardnew/ILI9341-Layout-Manager`](https://github.com/ardnew/ILI9341-Layout-Manager)|Arduino|An autolayout engine with callback support for designing and organizing buttons, text fields, and modal windows for ILI9341 chipsets|
-|[🟩](#color-code)|[`ardnew/XPT2046_Calibrated`](https://github.com/ardnew/XPT2046_Calibrated)|Arduino|XPT2046_Touchscreen library (Paul Stoffregen) fork with added 3-point calibration|
 |[🟩](#color-code)|[`ardnew/StatusLED`](https://github.com/ardnew/StatusLED)|Arduino|Single-LED RGB driver for Arduino, intended for use with onboard Neopixel/DotStar/RGB LEDs|
-|[🟨](#color-code)|[`ardnew/upd-layman`](https://github.com/ardnew/upd-layman)|Arduino|USB-C Power Delivery protocol analyzer and sink controller with versatile touchscreen interface|
-|[🟨](#color-code)|[`ardnew/pwsens-8266`](https://github.com/ardnew/pwsens-8266)|Arduino|Voltage and current monitor with Adafruit INA260 for the Heltec WiFi Kit 8 OLED|
+|[🟧](#color-code)|[`ardnew/timecard`](https://github.com/ardnew/timecard)|Arduino|PyPortal (Arduino) application to track hours charged to projects|
+|[🟧](#color-code)|[`ardnew/ILI9341-Layout-Manager`](https://github.com/ardnew/ILI9341-Layout-Manager)|Arduino|An autolayout engine with callback support for designing and organizing buttons, text fields, and modal windows for ILI9341 chipsets|
+|[🟧](#color-code)|[`ardnew/XPT2046_Calibrated`](https://github.com/ardnew/XPT2046_Calibrated)|Arduino|XPT2046_Touchscreen library (Paul Stoffregen) fork with added 3-point calibration|
+|[🟧](#color-code)|[`ardnew/upd-layman`](https://github.com/ardnew/upd-layman)|Arduino|USB-C Power Delivery protocol analyzer and sink controller with versatile touchscreen interface|
+|[🟧](#color-code)|[`ardnew/pwsens-8266`](https://github.com/ardnew/pwsens-8266)|Arduino|Voltage and current monitor with Adafruit INA260 for the Heltec WiFi Kit 8 OLED|
 
 # [STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
 
@@ -119,18 +126,20 @@
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |-----------------|:--------:|:-----:|:---------:|:----------|
-|[🟧](#color-code)|[`ardnew/perl-mod`](https://github.com/ardnew/perl-mod)|--|\*|Pure Perl modules for I/O, functional iterators, files, and list utilities.|
-|[🟩](#color-code)|[`ardnew/pcp`](https://github.com/ardnew/pcp)|`pcp`|\*|File and directory copy on ~~steroids~~PCP|
-|[⬛](#color-code)|[`ardnew/ios-scripts`](https://github.com/ardnew/ios-scripts)|`iosctrl`|macOS|Analyze, compile, and package iOS applications from Xcode projects|
 |[🟩](#color-code)|[`ardnew/bases`](https://github.com/ardnew/bases)|`bases`|\*|Evaluate and print expressions in various bases|
 |[🟩](#color-code)|[`ardnew/chars`](https://github.com/ardnew/chars)|`chars`|\*|Print ASCII and regular expression character class tables|
 |[🟦](#color-code)|[`ardnew/jlink-core-id`](https://github.com/ardnew/jlink-core-id)|`jlink-core-id`|\*|Get CPU core identifier for target board by name|
+|[🟧](#color-code)|[`ardnew/perl-mod`](https://github.com/ardnew/perl-mod)|--|\*|Pure Perl modules for I/O, functional iterators, files, and list utilities.|
+|[🟧](#color-code)|[`ardnew/pcp`](https://github.com/ardnew/pcp)|`pcp`|\*|File and directory copy on ~~steroids~~PCP|
+|[⬛](#color-code)|[`ardnew/ios-scripts`](https://github.com/ardnew/ios-scripts)|`iosctrl`|macOS|Analyze, compile, and package iOS applications from Xcode projects|
 
 # [Bash](https://www.gnu.org/software/bash/)
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |-----------------|:--------:|:-----:|:---------:|:----------|
-|[🟩](#color-code)|[`ardnew/bash-arduino`](https://github.com/ardnew/bash-arduino)|`ino`|\*|bash environment and utilities for simplifying `arduino-cli` interactions|
+https://github.com/ardnew/bash-busy
+|[🟩](#color-code)|[`ardnew/bash-busy`](https://github.com/ardnew/bash-busy)|`busy`|\*|Animated busy indicator for Bash shell scripts|
+|[🟧](#color-code)|[`ardnew/bash-arduino`](https://github.com/ardnew/bash-arduino)|`ino`|\*|bash environment and utilities for simplifying `arduino-cli` interactions|
 
 # [Delphi](https://www.embarcadero.com/products/delphi/)
 
@@ -184,7 +193,7 @@ The onboard IPS LCD screen provides a rich GUI interface based on the LVGL embed
 
 |[㏄](#color-code)|Repository|Target/Host|
 |-----------------|:--------:|:---------:|
-|[🟩](#color-code)|[`ardnew/timecard`](https://github.com/ardnew/timecard)|Adafruit PyPortal (SAMD51) (Arduino/C++)|
+|[🟧](#color-code)|[`ardnew/timecard`](https://github.com/ardnew/timecard)|Adafruit PyPortal (SAMD51) (Arduino/C++)|
 
 This software lets you select a project and an associated activity, then you can start and stop a timer that tracks how many hours you worked on that activity.
 
