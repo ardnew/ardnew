@@ -105,7 +105,6 @@
 
 |[㏄](#color-code)|Repository|Target/Host|Description|
 |-----------------|:--------:|:---------:|:----------|
-
 |[🟦](#color-code)|[`ardnew/portenta-tools`](https://github.com/ardnew/portenta-tools)|Arduino Portenta H7|Build and debug tools for Arduino Portenta H7|
 |[🟦](#color-code)|[`ardnew/STUSB4500`](https://github.com/ardnew/STUSB4500)|Arduino|Arduino library for real-time capabilities of the STUSB4500 USB PD sink controller|
 |[🟩](#color-code)|[`ardnew/StatusLED`](https://github.com/ardnew/StatusLED)|Arduino|Single-LED RGB driver for Arduino, intended for use with onboard Neopixel/DotStar/RGB LEDs|
@@ -137,7 +136,6 @@
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |-----------------|:--------:|:-----:|:---------:|:----------|
-https://github.com/ardnew/bash-busy
 |[🟩](#color-code)|[`ardnew/bash-busy`](https://github.com/ardnew/bash-busy)|`busy`|\*|Animated busy indicator for Bash shell scripts|
 |[🟧](#color-code)|[`ardnew/bash-arduino`](https://github.com/ardnew/bash-arduino)|`ino`|\*|bash environment and utilities for simplifying `arduino-cli` interactions|
 
