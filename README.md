@@ -91,7 +91,7 @@
 #### [Core (`machine`, `runtime`)](https://tinygo.org/docs/reference/machine/)
 |[㏄](#color-code)|Repository|Branch|Target/Host|Description|
 |-----------------|:--------:|:----:|:---------:|:---------:|
-|[🟩](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[feature/usb-common](https://github.com/ardnew/tinygo/tree/feature/usb-common)|\*|Common (target-agnostic) USB device-only driver — CDC-ACM, HID, and composite device classes (includes virtual serial/UART and HID keyboard drivers). Current support: Teensy 4.0/4.1; partial support: [Arduino Portenta H7](https://github.com/ardnew/tinygo/tree/feature/usb-common-arduino-portenta)|
+|[🟨](#color-code)|[`ardnew/tinygo`](https://github.com/ardnew/tinygo)|[feature/usb-common](https://github.com/ardnew/tinygo/tree/feature/usb-common)|\*|Common (target-agnostic) USB device-only driver — CDC-ACM, HID, and composite device classes (includes virtual serial/UART and HID keyboard drivers). Current support: Teensy 4.0/4.1; partial support: [Arduino Portenta H7](https://github.com/ardnew/tinygo/tree/feature/usb-common-arduino-portenta)|
 
 #### [`import "tinygo.org/x/drivers"`](https://github.com/tinygo-org/drivers/) (peripheral drivers)
 |[㏄](#color-code)|Repository|Branch|Target/Host|Interface|Description|
