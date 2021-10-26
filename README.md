@@ -130,6 +130,7 @@
 |[🟦](#color-code)|[`ardnew/jlink-core-id`](https://github.com/ardnew/jlink-core-id)|`jlink-core-id`|\*|Get CPU core identifier for target board by name|
 |[🟧](#color-code)|[`ardnew/perl-mod`](https://github.com/ardnew/perl-mod)|--|\*|Pure Perl modules for I/O, functional iterators, files, and list utilities.|
 |[🟧](#color-code)|[`ardnew/pcp`](https://github.com/ardnew/pcp)|`pcp`|\*|File and directory copy on ~~steroids~~PCP|
+|[🟦](#color-code)|[`ardnew/go-get`](https://github.com/ardnew/go-get)|`go-get`|\*|Clone a Go package/module source code repository from import path|
 |[⬛](#color-code)|[`ardnew/ios-scripts`](https://github.com/ardnew/ios-scripts)|`iosctrl`|macOS|Analyze, compile, and package iOS applications from Xcode projects|
 
 # [Bash](https://www.gnu.org/software/bash/)
