@@ -21,6 +21,8 @@
 [lsidocurl]:https://godoc.org/github.com/ardnew/lsi
 [versiondocimg]:https://godoc.org/github.com/ardnew/version?status.svg
 [versiondocurl]:https://godoc.org/github.com/ardnew/version
+[clindocimg]:https://godoc.org/github.com/ardnew/clin?status.svg
+[clindocurl]:https://godoc.org/github.com/ardnew/clin
 
 |[㏄](#color-code)|Repository|Documentation|Description|
 |-----------------|:--------:|:-----:|:----------|
@@ -30,6 +32,7 @@
 |[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Go module to follow elements of a file path|
 |[🟧](#color-code)|[`ardnew/version`](https://github.com/ardnew/version)|[![GoDoc][versiondocimg]][versiondocurl]|Go module to easily embed semantic versioning compliance with change history|
 |[🟧](#color-code)|[`ardnew/oibot`](https://github.com/ardnew/oibot)|--|Go package for controlling iRobot Create 2 robots using Open Interface (OI) specification|
+|[🟩](#color-code)|[`ardnew/clin`](https://github.com/ardnew/clin)|[![GoDoc][clindocimg]][clindocurl]|Get user input from command-line Go applications|
 
 #### Shell integration
 
@@ -59,7 +62,7 @@
 |[🟦](#color-code)|[`ardnew/lsi`](https://github.com/ardnew/lsi)|[`cmd/lsi`](https://github.com/ardnew/lsi/tree/main/cmd/lsi)|[![GoDoc][lsidocimg]][lsidocurl]|Follow elements of a file path similar to `namei` from [util-linux](https://www.kernel.org/pub/linux/utils/util-linux/)|
 |[🟦](#color-code)|[`ardnew/svngrab`](https://github.com/ardnew/svngrab)|`svngrab`|[![GoDoc][svngrabdocimg]][svngrabdocurl]|Export, merge, and package paths from SVN repositories per YAML configuration file|
 |[🟦](#color-code)|[`ardnew/erro`](https://github.com/ardnew/erro)|`erro`|[![GoDoc][errodocimg]][errodocurl]|Echo formatted text to stderr|
-|[🟧](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
+|[🟦](#color-code)|[`ardnew/wslpath`](https://github.com/ardnew/wslpath)|`wslpath`|[![GoDoc][wslpathdocimg]][wslpathdocurl]|Convert between Windows and Linux file paths in WSL|
 |[🟧](#color-code)|[`ardnew/mkgo`](https://github.com/ardnew/mkgo)|`mkgo`|[![GoDoc][mkgodocimg]][mkgodocurl]|Create a Go main module using template source file|
 
 #### Build Tools
@@ -137,8 +140,11 @@
 
 |[㏄](#color-code)|Repository|Command|Target/Host|Description|
 |-----------------|:--------:|:-----:|:---------:|:----------|
+|[🟦](#color-code)|[`ardnew/bash-apocryphal`](https://github.com/ardnew/bash-apocryphal)|--|\*|Essential texts for Bourne-again faithful, unaccepted by the powers at be|
 |[🟩](#color-code)|[`ardnew/bash-busy`](https://github.com/ardnew/bash-busy)|`busy`|\*|Animated busy indicator for Bash shell scripts|
-|[🟧](#color-code)|[`ardnew/bash-arduino`](https://github.com/ardnew/bash-arduino)|`ino`|\*|bash environment and utilities for simplifying `arduino-cli` interactions|
+|[🟦](#color-code)|[`ardnew/ino`](https://github.com/ardnew/ino)|`ino`|\*|Wrapper script for building with `arduino-cli`|
+|[🟩](#color-code)|[`ardnew/jlink-accept-license`](https://github.com/ardnew/jlink-accept-license)|`jlink-accept-license`|X11|Shell script to automatically accept J-Link terms of use|
+|[🟩](#color-code)|[`ardnew/mount.part`](https://github.com/ardnew/mount.part)|`mount.part`|Linux|Mount a single partition from a whole disk image file|
 
 # [Delphi](https://www.embarcadero.com/products/delphi/)
 
