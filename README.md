@@ -1,11 +1,11 @@
 
 ### The following software is all personally authored and [free for public use](LICENSE) unless noted otherwise.
 
-### PGP/SSH public keys are kept securely at [ardnew.com/keys](https://ardnew.com/keys), backed up here on GitHub at [ardnew/keys](keys).
+### PGP/SSH public keys are kept securely ~at [ardnew.com/keys](https://ardnew.com/keys), backed up~<sup>(:no_entry:)</sup> here on GitHub at [ardnew/keys](keys).
 
-#### Pull requests, criticism, and [donations](https://cash.app/$ardnew) welcome. *No refunds*.
+### Pull requests, criticism, and [donations](https://cash.app/$ardnew) welcome. *No refunds*.
 
-###### Each repository is assigned a subjective color code (㏄) to indicate its status and general quality. See [Color Code](#color-code) for definitions.
+#### Each repository is assigned a subjective color code ([㏄](#color-code)) to indicate its status and general quality. See [Color Code](#color-code) for definitions.
 
 # [Go](https://golang.org/) 
 
