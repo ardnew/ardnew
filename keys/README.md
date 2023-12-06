@@ -7,7 +7,7 @@
 |[ardnew.id_ecdsa.pub](ardnew.id_ecdsa.pub)|OpenSSH|ECDSA|521-bit |`SHA256:+fm4Av8paq2dVs0SfqgV5UKGgQREgu1A8JMf7QR6N4k`|
 
 #### GitHub Web Interface
-Note that GitHub uses [its own PGP key](https://github.com/web-flow.gpg) to sign commits made using the Web interface. 
+Note that GitHub uses [its own PGP key](https://github.com/web-flow.gpg) to sign commits made using its Web editor.
 
 You can import and sign the GitHub Web-flow public key locally to verify the identity of **anyone** using the GitHub Web interface:
 
